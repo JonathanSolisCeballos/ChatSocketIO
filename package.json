@@ -1,0 +1,26 @@
+{
+  "name": "chatsocketio",
+  "version": "1.0.0",
+  "esversion": 6,
+  "description": "Realtime chat with Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanSolisCeballos/ChatSocketIO.git"
+  },
+  "author": "Jonathan Solis Ceballos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanSolisCeballos/ChatSocketIO/issues"
+  },
+  "homepage": "https://github.com/JonathanSolisCeballos/ChatSocketIO#readme",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

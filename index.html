@@ -5,13 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Socket.io Realtime Chat</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <!-- the io function -->
+  <script defer src="http://localhost:1510/socket.io/socket.io.js"></script>
+  <link rel="shortcut icon" href="./img/socket-io.png" type="image/x-icon">
+  <script defer src="app.js"></script>
 </head>
 
 <body>
   <h1 class="header">Realtime Chat with Socket.io</h1>
-  <div class="messageContainer"></div>
-  <form action="" class="formContainer">
+  <div id="messageContainer" class="messageContainer"></div>
+  <form action="" class="formContainer" id="formContainer">
     <input type="text" name="txtmessage" class="txtmessage" id="txtmessage" placeholder="Escribe tu mensaje aquí...">
     <button type="submit" id="btnsubmit">Enviar</button>
   </form>
@@ -19,10 +23,10 @@
   <footer>
     <p>Copyright &copy; 2019 Jonathan Solis Ceballos</p>
     <a href="https://github.com/JonathanSolisCeballos" target="_blank">
-      <img src="img/github.svg" class="socialMediaImg" alt="github logo">
+      <img src="./img/github.svg" class="socialMediaImg" alt="github logo">
     </a>
     <a href="https://www.instagram.com/jonathansolisc/?hl=en" target="_blank">
-      <img class="socialMediaImg" src="img/instagram.png" alt="instragram logo">
+      <img class="socialMediaImg" src="./img/instagram.png" alt="instragram logo">
     </a>
   </footer>
 
